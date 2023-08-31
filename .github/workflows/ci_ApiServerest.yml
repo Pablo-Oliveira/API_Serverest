@@ -37,7 +37,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Step 3 Execute collection
-        run: newman run ./ApiServerest.postman_collection.json -e ./APIServerest.postman_environment.json --reporters cli, -r htmlextra --reporter-htmlextra-export ./results/Report.html
+        run: newman run ./ApiServerest.postman_collection.json -e ./APIServerest.postman_environment.json --reporters cli, -r htmlextra --reporter-htmlextra-export ./results/index.html
 
       # Runs a set of commands using the runners shell
       - name: Ste 4 Archive Production artifacts

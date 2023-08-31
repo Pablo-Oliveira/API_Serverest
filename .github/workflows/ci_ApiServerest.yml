@@ -45,7 +45,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: report
-          path: ./results/Report.html
+          path: ./results/index.html
 
       - name: Deploy do Report.html
         if: ${{ always() }}
